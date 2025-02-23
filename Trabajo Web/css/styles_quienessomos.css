@@ -1,0 +1,153 @@
+.presentacion-quienes-somos {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #2484D1;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+    color: white;
+}
+
+.presentacion-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.presentacion-quienes-somos h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.presentacion-quienes-somos p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.quienes-somos,
+.mision-historia {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.quienes-somos h1,
+.mision-historia h2 {
+    color: #2c3e50;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.quienes-somos h1 i,
+.mision-historia h2 i {
+    margin-right: 10px;
+    color: #f39c12;
+}
+
+.quienes-somos p,
+.mision-historia p,
+.quienes-somos ul,
+.mision-historia ul {
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 20px 60px;
+}
+
+.quienes-somos ul,
+.mision-historia ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.quienes-somos,
+.mision-historia {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.quienes-somos::before,
+.mision-historia::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../Img/fondo_quienessomos.png');
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.07;
+    z-index: -1;
+}
+
+.equipo {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.equipo h2 {
+    color: #2c3e50;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.equipo h2 i {
+    margin-right: 10px;
+    color: #f39c12;
+}
+
+.miembros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.miembro {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 200px;
+    text-align: center;
+}
+
+.miembro:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.miembro h3 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+    font-size: 1.2em;
+}
+
+.miembro h3 i {
+    margin-right: 10px;
+    color: #f39c12;
+}
+
+.miembro p {
+    margin: 0;
+    color: #333;
+    font-size: 1em;
+}
